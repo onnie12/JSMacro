@@ -1,1 +1,1 @@
-# JSMacro
+# Javascript Macro built with Tauri 
