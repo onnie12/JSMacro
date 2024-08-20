@@ -17,16 +17,17 @@
       <h1 id="main-text">Javascript Macro</h1>
     </div>
     <div id="container">
-      <input type="text" maxlength="1" class="char-input" placeholder="Input Number Here:">
-      <input type="text" maxlength="2" placeholder="Input Mouse Button here:" class="char-input">
+      <input type="text" maxlength="1" class="char-input" placeholder="Input Number Here:" id="inputNumHere" form autocomplete="off">
+      <input type="text" maxlength="2" placeholder="Input Mouse Button here:" class="char-input" id="inputMouseHere" form autocomplete="off">
     </div>
     <div>
-      <button id="start-macro">Start Macro!</button>
+      <button id="start-macro" onclick="startMacro()">Start Macro!</button>
     </div>
     <div id="btns">
       <input type="radio" class="choosebtn">
       <input type="radio" class="choosebtn">
       
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
