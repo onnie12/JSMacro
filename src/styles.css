@@ -22,6 +22,7 @@ border-radius: 20px;
   font-family: "Lato", sans-serif;
   font-size: 20px;
   font-weight: bold;
+  box-shadow: rgba(236, 236, 236, 0.2) 0px 2px 8px 0px;
 }
 #container{
   background-color: white;
@@ -30,7 +31,10 @@ border-radius: 20px;
   text-align: center;
   justify-content: center;
   height: 100px;
-  width: 100%;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 25px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
 }
 .char-input{
   padding: 3px;
@@ -38,13 +42,16 @@ border-radius: 20px;
 }
 #btns{
   background-color: white;
-  width: 50px;
-  height: 100px;
+  width: 100px;
+  height: 150px;
   margin-top: -30%;
-  flex-direction: column;
+  display: block;
 }
 .choosebtn{
   flex-direction: column-reverse;
 }
-
+.radioLabels{
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
 
