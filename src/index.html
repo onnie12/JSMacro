@@ -20,6 +20,9 @@
       <input type="text" maxlength="1" class="char-input" placeholder="Input Number Here:" id="inputNumHere" form autocomplete="off">
       <input type="text" maxlength="2" placeholder="Input Mouse Button here:" class="char-input" id="inputMouseHere" form autocomplete="off">
     </div>
+    <div id="error">
+      <h1 id="errorText"></h1>
+    </div>
     <div>
       <button id="start-macro" onclick="startMacro()">Start Macro!</button>
     </div>
@@ -30,7 +33,7 @@
       <br>
       <label class="radioLabels">Press every 500ms
         <br>
-        <input type="radio" class="choosebtn" name="question">
+        <input type="radio" class="choosebtn" name="question" id="holdBtn">
       </label>
       
     </div>
